@@ -248,7 +248,7 @@ const Homestays = () => {
                     )}
                   </div>
 
-                  <div className="flex items-center justify-between mt-auto pt-3 border-t border-border/50 mt-3">
+                  <div className="flex items-center justify-between mt-auto pt-3 border-t border-border/50 .mt-3">
                     <div>
                       <p className="text-teal-600 font-extrabold text-lg">₹{h.pricePerNight.toLocaleString("en-IN")}<span className="text-xs font-normal text-muted-foreground">/night</span></p>
                       <p className="text-xs text-muted-foreground">{h.reviews} reviews</p>

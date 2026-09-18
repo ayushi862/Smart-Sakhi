@@ -35,9 +35,9 @@ const CLASSES = [
     chef:"Savita Sharma", city:"Udaipur", state:"Rajasthan", type:"regional",
     desc:"Learn dal baati churma, gatte ki sabzi, ker sangri and laal maas in a 3-hour hands-on class. Recipe cards included.",
     price:500, duration:"3 hours", batchSize:8, rating:4.9, reviews:43,
-    image:"https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzr4OqB72duA4iu_b8O1KQrccPIiugDCKtkpvVC12jziOxUz209vE40C62&s=10",
     includes:["Recipe Cards","Ingredients","Certificate","Lunch"],
-    schedule:"Weekends 10AM–1PM",
+    schedule:"Weekends 10AM-1PM",
     tags:["Hands-on","Certificate","Lunch Included"],
   },
   {
@@ -45,9 +45,9 @@ const CLASSES = [
     chef:"Priya Banerjee", city:"Kolkata", state:"West Bengal", type:"sweets",
     desc:"Make rasgulla, sandesh, mishti doi and chomchom from scratch. Learn the secrets of Bengali mithai in 4 hours.",
     price:600, duration:"4 hours", batchSize:6, rating:5.0, reviews:38,
-    image:"https://images.pexels.com/photos/3184192/pexels-photo-3184192.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6JwNxBStuXZwADNQGga7Z0Ikw-Zwr3U7ufG5JdblAAQ&s=10",
     includes:["Recipe Cards","All Ingredients","Sweets to Take Home","Certificate"],
-    schedule:"Saturdays 11AM–3PM",
+    schedule:"Saturdays 11AM-3PM",
     tags:["Sweets","Take Home","Certificate"],
   },
   {
@@ -57,7 +57,7 @@ const CLASSES = [
     price:500, duration:"2 hours", batchSize:8, rating:4.9, reviews:56,
     image:"https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
     includes:["Recipe Cards","Breakfast Served","Certificate"],
-    schedule:"Daily 8AM–10AM",
+    schedule:"Daily 8AM-10AM",
     tags:["Tiffin Business","Certificate","Breakfast"],
   },
   {
@@ -97,7 +97,7 @@ const CLASSES = [
     price:300, duration:"2 hours", batchSize:20, rating:4.8, reviews:62,
     image:"https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=400",
     includes:["Recipe PDF","Live Demo","Q&A Session","Recording Access"],
-    schedule:"Wednesdays 6PM–8PM",
+    schedule:"Wednesdays 6PM-8PM",
     tags:["Online","Live","Recording"],
   },
   {
@@ -249,7 +249,7 @@ const CookingClasses = () => {
                     )}
                   </div>
 
-                  <div className="flex items-center justify-between mt-auto pt-3 border-t border-border/50 mt-3">
+                  <div className="flex items-center justify-between mt- pt-3 border-t border-border/50 mt-3">
                     <div>
                       <p className="text-blue-600 font-extrabold text-lg">₹{cls.price}<span className="text-xs font-normal text-muted-foreground">/person</span></p>
                       <p className="text-xs text-muted-foreground">{cls.reviews} reviews</p>
